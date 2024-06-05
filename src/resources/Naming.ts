@@ -60,7 +60,7 @@ export class Naming {
   }
 
   getApiKeyLogicalId(name: string) {
-    return this.getLogicalId(`GraphQlApi${name}`);
+    return this.getLogicalId(`GraphQlApiKey${name}`);
   }
 
   // Warning: breaking change.
